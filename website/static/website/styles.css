@@ -1,0 +1,36 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color:#06557a;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    width: 22%;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color:#a9c9d5;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #e2babf;
+    color: black;
+  }
+
+ body {
+    background-image: url('../images/mtnbg.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size:cover;
+  }
