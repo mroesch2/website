@@ -10,3 +10,8 @@ def aboutme(request):
     return render(request, "website/aboutme.html", {
 
     })
+
+def resume(request):
+    return render(request, "website/resume.html", {
+
+    })
