@@ -2,6 +2,7 @@
 .topnav {
     background-color:#06557a;
     overflow: hidden;
+    position: sticky;
   }
   
   /* Style the links inside the navigation bar */
@@ -27,10 +28,14 @@
     color: black;
   }
 
- body {
+ .homepage {
     background-image: url('../images/mtnbg.jpg');
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
     background-size:cover;
+  }
+
+  .aboutme {
+    background-color: aliceblue;
   }
