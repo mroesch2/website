@@ -5,22 +5,14 @@
         <head>
             <title>Welcome!</title>
             <link href="{% static 'website/styles.css' %}" rel="stylesheet">
-            </head>
+        </head>
 
         <body>
-
-            <div class="bg-image"></div>
             <div class="topnav">
                 <a href="{% url 'homepage' %}">Home</a>
                 <a class="active" href="{% url 'aboutme' %}">About Me</a>
                 <a href="{% url 'resume' %}">Resume</a>
                 <a href="https://github.com/mroesch2">GitHub</a>
             </div>
-            
-            <div>
-                    Hello. This is my about me.
-
-            </div>
-            
         </body>
     </html>

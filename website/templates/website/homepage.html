@@ -5,17 +5,14 @@
         <head>
             <title>Welcome!</title>
             <link href="{% static 'website/styles.css' %}" rel="stylesheet">
-            
         </head>
 
-        <body class="homepage">
-
+        <body>
             <div class="topnav">
                 <a class="active" href="{% url 'homepage' %}">Home</a>
                 <a href="{% url 'aboutme' %}">About Me</a>
                 <a href="{% url 'resume' %}">Resume</a>
                 <a href="https://github.com/mroesch2">GitHub</a>
             </div>
-            
         </body>
     </html>
