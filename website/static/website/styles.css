@@ -28,8 +28,8 @@
     color: black;
   }
 
- .homepage {
-    background: url('../images/bg2.jpg') no-repeat center center fixed;
+#bg-image {
+    background: url('../static/images/bg2.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
