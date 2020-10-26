@@ -1,7 +1,21 @@
-{% extends "website/layout.html" %}
 
-{% block body %}
-<body class="homepage">
-   
-</body>
-{% endblock %}
+{% load static %}
+<DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Welcome!</title>
+            <link href="{% static 'website/styles.css' %}" rel="stylesheet">
+            
+        </head>
+
+        <body>
+
+            <div class="topnav">
+                <a class="active" href="{% url 'homepage' %}">Home</a>
+                <a href="{% url 'aboutme' %}">About Me</a>
+                <a href="#resume">Resume</a>
+                <a href="#github">GitHub</a>
+            </div>
+            
+        </body>
+    </html>

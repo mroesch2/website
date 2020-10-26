@@ -1,14 +1,21 @@
-{% extends "website/layout.html" %}
 
-{% block nav-about %}<strong class="nav-active">About Me</strong>{% endblock %}
+{% load static %}
+<DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Welcome!</title>
+            <link href="{% static 'website/styles.css' %}" rel="stylesheet">
+            
+        </head>
 
-{% block title %}
-    About Me
-{% endblock %}
+        <body>
 
-
-{% block body %}
-<div class="aboutme" style="background-color:powderblue;">
-    Hello World!
-</div>
-{% endblock %}
+            <div class="topnav">
+                <a href="{% url 'homepage' %}">Home</a>
+                <a class="active" href="{% url 'aboutme' %}">About Me</a>
+                <a href="#resume">Resume</a>
+                <a href="#github">GitHub</a>
+            </div>
+            
+        </body>
+    </html>
