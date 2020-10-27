@@ -46,51 +46,6 @@
     left: 0px;
     z-index: -1;
   }
-  .aboutme-flex-container {
-    display: flex;
-    padding: 90px;
-    margin-top: 5px;
-  }
-
-  .aboutme-flex-child {
-    flex: 1;
-    background-color: aliceblue;
-    border: 5px solid rgb(23, 34, 48);
-    height: 200px;
-    text-align: center;
-    margin: auto;
-  }
-
-  .aboutme-flex-child:first-child {
-    margin-right: 20px;
-  }
-  .aboutmetext {
-    background-color: aliceblue;
-    position: relative;
-    left: 20%;
-    text-align: center;
-    z-index: 5;
-    margin: auto;
-    width: 15%;
-    height: 30%;
-    border: 3px solid black;
-    padding: 200px;
-    margin-top: 100px;
-
-  }
-
-  .aboutmephotos {
-    background-color: aliceblue;
-    position: relative;
-    right: 30%;
-    border: 3px solid black;
-    margin-top: 100px;
-    margin: auto;
-    width: 2px;
-    height: 2px;
-    padding: 80px;
-    z-index: 5;
-  }
 
 
 .wrap {
@@ -98,28 +53,58 @@
   flex-wrap: wrap;
   flex-direction: column;         
   height: 500px;                  
-  justify-content: space-between; 
+  justify-content: space-evenly; 
   padding: 80px;
 }
-.elem3 {
-  width: 50%;
+.text-box {
+  width: 40%;
   flex-basis: 100%;               
   border: 4px solid rgb(38, 50, 73);
-  height: 500px;
   background-color: aliceblue;
   text-align: center;
 }
 .elem1 {
+  content: url('../images/IMG_4988.JPG');
   width: 20%;
   flex-basis: 40%;                
   border: 4px solid rgb(38, 50, 73);
-  height: 10%;
+  height: 20%;
   background-color: aliceblue;
 }
 .elem2 {
+  content: url('../images/IMG_2472.JPG');
   width: 20%;
   flex-basis: 40%;                
   border: 4px solid rgb(38, 50, 73);
-  height: 10%;
+  height: 20%;
   background-color: aliceblue;
+}
+
+.elem3 {
+  content: url('../images/IMG_5859.JPG');
+  width: 20%;
+  flex-basis: 40%;                
+  border: 4px solid rgb(38, 50, 73);
+  height: 20%;
+  background-color: aliceblue;
+}
+
+.elem4 {
+  content: url('../images/IMG_8740.JPG');
+  width: 20%;
+  flex-basis: 40%;                
+  border: 4px solid rgb(38, 50, 73);
+  height: 20%;
+  background-color: aliceblue;
+}
+
+
+.resume {
+  background-color: aliceblue;
+  z-index: 5;
+  height: 500px;
+  width: 500px;
+  padding: 40px;
+  margin-top: 40px;
+  position: fixed;
 }
