@@ -1,6 +1,6 @@
-
 {% load static %}
-<DOCTYPE html>
+
+<!DOCTYPE html>
     <html lang="en">
         <head>
             <title>Welcome!</title>
@@ -17,6 +17,13 @@
                 <a href="https://github.com/mroesch2">GitHub</a>
                 <a class="active" href="{% url 'contact' %}">Contact</a>
             </div>
+
+            <h2>Contact Us</h2>
+            <form method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <input type="submit" value="Submit" />
+            </form>
 
            
           <div class="footer"></div> 
