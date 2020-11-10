@@ -9,15 +9,42 @@
 
         <body>
             <div class="bg-img"></div>
-            
+
+           
             <div class="topnav">
                 <a class="active" href="{% url 'homepage' %}">Home</a>
-                <a href="{% url 'aboutme' %}">About Me</a>
                 <a href="{% url 'resume' %}">Resume</a>
                 <a href="https://github.com/mroesch2">GitHub</a>
+                <a href="{% url 'contact' %}">Contact</a>
             </div>
 
+            <div class="wrap">
+                    <div class="gallery">
+                        <a target="_blank" href='../static/images/IMG_4988.JPG'>
+                            <img src='../static/images/IMG_4988.JPG' alt="Photo1" width="500" height="500">
+                        </a>
+                    </div>
 
-            <div class="footer"></div>     
+                    <div class="gallery">
+                        <a target="_blank" href='../static/images/IMG_2472.JPG'>
+                            <img src='../static/images/IMG_2472.JPG' alt="Photo2" width="500" height="500">
+                        </a>
+                    </div>
+
+                    <div class="gallery">
+                        <a target="_blank" href='../static/images/IMG_5859.JPG'>
+                            <img src='../static/images/IMG_5859.JPG' alt="Photo3" width="500" height="500">
+                        </a>
+                    </div>
+                    
+                    <div class="gallery">
+                        <a target="_blank" href='../static/images/IMG_8740.JPG'>
+                            <img src='../static/images/IMG_8740.JPG' alt="Photo4" width="500" height="500">
+                        </a>
+                    </div>
+                    <div class="text-box">About Me Text</div>
+                  </div>
+            
+          <div class="footer"></div> 
         </body>
     </html>

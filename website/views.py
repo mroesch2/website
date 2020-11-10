@@ -6,8 +6,8 @@ def homepage(request):
        
     })
 
-def aboutme(request):
-    return render(request, "website/aboutme.html", {
+def contact(request):
+    return render(request, "website/contact.html", {
 
     })
 

@@ -134,3 +134,22 @@ div.gallery img {
   width: 97%;
   clear: both;
 }
+
+@keyframes welcome {
+  40% {text-shadow: 1px 1px 10px rgb(14, 0, 0), 0 0 30px rgb(246, 246, 252), 0 0 50px rgb(229, 229, 238);}
+}
+
+/* The element to apply the animation to */
+.welcome-message {
+  width: 100px;
+  height: 100px;
+  color: rgb(201, 10, 99);
+  animation-name: welcome;
+  animation-duration: 4s;
+  font-family: arial;
+  font-size: 200px;
+  position: static;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(153, 58, 148);
+  animation: welcome 3s infinite;
+ font-weight: 300;
+}
