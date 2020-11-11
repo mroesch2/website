@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Codystar:300&display=swap');
+
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color:#06557a;
@@ -55,7 +58,7 @@
   flex-direction: column;         
   height: 500px;                  
   justify-content: space-evenly; 
-  padding: 80px;
+  padding: 60px;
 }
 .text-box {
   width: 40%;
@@ -112,7 +115,7 @@
 
 /* Styling for homepage images*/
 div.gallery {
-  margin: 4px;
+  margin: 3px;
   border: 1px solid #ccc;
   float: left;
   width: 200px;
@@ -166,30 +169,32 @@ div.gallery img {
 .neons h1 {
  font-size: 7rem;
  text-align: center;
-  font-weight: bold;
- -webkit-animation: glow 2s ease-in-out infinite alternate;
- -moz-animation: glow 2s ease-in-out infinite alternate;
- animation: glow 2s ease-in-out infinite alternate;
+  font-weight: bolder;
+ -webkit-animation: glow 4s ease-in-out alternate forwards;
+ -moz-animation: glow 4s ease-in-out alternate forwards;
+ animation: glow 4s ease-in-out alternate forwards;
 }
 
 @keyframes glow {
     from {
-     color: #fff;
-   text-shadow: 0 0 10px #ebb2d5, 0 0 20px #ebb2d5, 0 0 30px #ebb2d5, 0 0 40px #ebb2d5, 0 0 50px #ebb2d5, 0 0 60px #ebb2d5, 0 0 70px #ebb2d5, 0 0 90px #ebb2d5;
- }
+    color: rgb(49, 47, 47);
+   text-shadow: 0 0 20px #d87b9f, 0 0 30px #d87b9f, 0 0 40px #d87b9f, 0 0 50px #d87b9f, 0 0 60px #d87b9f, 0 0 70px #d87b9f, 0 0 80px #d87b9f, 0 1 90px #d87b9f;
+ } 
  
  to {
-    color: gray;
-   text-shadow: 0 0 20px #ebb2d5, 0 0 30px #ebb2d5, 0 0 40px #ebb2d5, 0 0 50px #ebb2d5, 0 0 60px #ebb2d5, 0 0 70px #ebb2d5, 0 0 80px #ebb2d5, 0 1 90px #ebb2d5;
+     color: #fff;
+   text-shadow: 0 0 10px #d87b9f, 0 0 20px #d87b9f, 0 0 30px #d87b9f, 0 0 40px #d87b9f, 0 0 50px #d87b9f, 0 0 60px #d87b9f, 0 0 70px #d87b9f, 0 0 90px #d87b9f;
  }
+ 
+
 }
 
-@import url('https://fonts.googleapis.com/css?family=Codystar:300&display=swap');
+
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: 'Codystar';
-  margin: 2%;
+
 }
