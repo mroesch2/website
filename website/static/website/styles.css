@@ -28,6 +28,7 @@
     color: black;
   }
 
+    /* Sets background image with a blur */
   .bg-img {
     background: url('../images/mtnbg.jpg');
     -webkit-background-size: cover;
@@ -47,7 +48,7 @@
     z-index: -1;
   }
 
-
+  /* Flex wrap on homepage images and text box */
 .wrap {
   display: flex;
   flex-wrap: wrap;
@@ -65,7 +66,7 @@
   padding: 3%;
 }
 
-
+  /* Styling for resume */
 .resume {
   background-color: aliceblue;
   z-index: 5;
@@ -80,29 +81,36 @@
   line-height: 160%;
 }
 
+/* Styling for heading sections of resume */
 .head {
   font-size: 150%;
   font-weight: bold;
   line-height: 20%;
 }
 
+  /* Styling for creating tabs on resume */
 .tab { 
   display:inline-block; 
   margin-left: 350px; 
 }
 
+/* Styling for creating tabs on resume */
 .tab2 { 
   display:inline-block; 
   margin-left: 380px; 
 }
+
+/* Change coloring of visited links*/
 .resume a, .resume a:visited {
   color: rgb(33, 65, 95);
 }
 
+/* Change color on links during hover */
 .resume a:hover {
   color: rgb(90, 25, 76);
 }
 
+/* Styling for homepage images*/
 div.gallery {
   margin: 4px;
   border: 1px solid #ccc;
@@ -122,6 +130,7 @@ div.gallery img {
   flex-basis: 40%; 
 }
 
+/* Adds a solid bar footer to the end of the pages */
 .footer {
   background-color: #06557a;
   padding: 10;
@@ -135,9 +144,9 @@ div.gallery img {
   clear: both;
 }
 
-
+/* Homepage top box welcome*/
 .welcome {
-  background-color: #ffffff;
+
   width: auto;
   z-index: 6;
   height: 20px;
@@ -146,4 +155,40 @@ div.gallery img {
   padding: 50;
   position: static;
   vertical-align: middle;
+}
+
+.neons {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.neons h1 {
+ font-size: 7rem;
+ text-align: center;
+  font-weight: bold;
+ -webkit-animation: glow 2s ease-in-out infinite alternate;
+ -moz-animation: glow 2s ease-in-out infinite alternate;
+ animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+     color: #fff;
+   text-shadow: 0 0 10px #ebb2d5, 0 0 20px #ebb2d5, 0 0 30px #ebb2d5, 0 0 40px #ebb2d5, 0 0 50px #ebb2d5, 0 0 60px #ebb2d5, 0 0 70px #ebb2d5, 0 0 90px #ebb2d5;
+ }
+ 
+ to {
+    color: gray;
+   text-shadow: 0 0 20px #ebb2d5, 0 0 30px #ebb2d5, 0 0 40px #ebb2d5, 0 0 50px #ebb2d5, 0 0 60px #ebb2d5, 0 0 70px #ebb2d5, 0 0 80px #ebb2d5, 0 1 90px #ebb2d5;
+ }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Codystar:300&display=swap');
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Codystar';
+  margin: 2%;
 }
